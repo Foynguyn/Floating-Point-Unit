@@ -1,6 +1,7 @@
 # Floating Point Unit
 this is our project from verilog HDL class
 
+```
 FPU/
 ├── simulation/
 │   └── modelsim/
@@ -10,6 +11,7 @@ FPU/
 ├── testcase.py
 ├── .gitignore
 └── README.md
+```
 
 The project implements floating-point operations including addition, subtraction, multiplication, and division. 
 
