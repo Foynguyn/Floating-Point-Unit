@@ -68,9 +68,9 @@ module FPU_tb;
 			@(posedge clk);
 			
 			$display("Testcase %0d: %b", i + 1, opcode);
-			$display("Number 1: %h(%.2f), Number 2: %h(%.2f)", A, float_A, B, float_B);
+			$display("Number 1: %h(%.4f), Number 2: %h(%.4f)", A, float_A, B, float_B);
 			$display("result: %h", result);
-			$display("Expected: %h(%.2f)", expected, float_expected);
+			$display("Expected: %h(%.4f)", expected, float_expected);
 
 			if (result !== expected) begin
 				countFail= countFail+1;
